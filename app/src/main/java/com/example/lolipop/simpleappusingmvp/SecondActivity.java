@@ -9,16 +9,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class SecondActivity extends AppCompatActivity {
 
 
-    @Bind(R.id.listView)
+    @BindView(R.id.listView)
     Button list;
 
-    @Bind(R.id.simple_counter)
+    @BindView(R.id.simple_counter)
     Button simple_counter;
 
     @Override

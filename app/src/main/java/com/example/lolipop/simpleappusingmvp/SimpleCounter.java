@@ -13,23 +13,22 @@ import com.simple.counter.mvp.CounterPresentImpliment;
 import com.simple.counter.mvp.CounterPresenter;
 import com.simple.counter.mvp.CounterView;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class SimpleCounter extends AppCompatActivity implements CounterView{
 
 
 
-    @Bind(R.id.plus)
+    @BindView(R.id.plus)
     Button plus;
-    @Bind(R.id.message)
+    @BindView(R.id.message)
     TextView messageDisplay;
 
-    @Bind(R.id.minus)
+    @BindView(R.id.minus)
     Button minus;
 
-
-    @Bind(R.id.refresh)
+    @BindView(R.id.refresh)
     Button refresh;
     public CounterPresenter counterPresenter;
     @Override

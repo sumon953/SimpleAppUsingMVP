@@ -18,16 +18,17 @@ import com.listview.mvp.MainItemView;
 
 import java.util.List;
 
-import butterknife.Bind;
+
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class ListActivity extends AppCompatActivity implements MainItemView , AdapterView.OnItemClickListener
 {
 
 
-    @Bind(R.id.list_list)
+    @BindView(R.id.list_list)
     ListView listView;
-    @Bind(R.id.progress)
+    @BindView(R.id.progress)
     ProgressBar progressBar;
 
     public ItemPresenter itemPresenter;

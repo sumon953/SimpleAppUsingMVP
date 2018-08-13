@@ -17,19 +17,19 @@ import com.login.mvp.LoginPresenterImpliment;
 import com.login.mvp.LoginView;
 import com.login.mvp.LoginViewPresenter;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity implements LoginView{
 
 
-    @Bind(R.id.password)
+    @BindView(R.id.password)
     EditText userPassword;
-    @Bind(R.id.username)
+    @BindView(R.id.username)
     EditText userName;
-    @Bind(R.id.progress)
+    @BindView(R.id.progress)
     ProgressBar progressBar;
-    @Bind(R.id.button)
+    @BindView(R.id.button)
     Button button;
 
 
